@@ -8,6 +8,7 @@
    - escape_attempts: integer
    - neutered: boolean
    - weight_kg: decimal
+   - species : integer
 
 
 ## Author
