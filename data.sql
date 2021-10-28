@@ -1,5 +1,7 @@
 /* Populate database with sample data. */
 
+    /* Animals data */
+
 INSERT INTO animals VALUES (
 1,
 'Agumon',
@@ -89,3 +91,31 @@ INSERT INTO animals VALUES (
 true,
 17
 )
+
+    /* Owners data */
+
+INSERT INTO owners (owner_id, full_name, age)
+VALUES (DEFAULT, 'Sam Smith', 34);
+
+INSERT INTO owners (owner_id, full_name, age) 
+VALUES (DEFAULT, 'Jennifer Orwell', 19);
+
+INSERT INTO owners (owner_id, full_name, age)
+VALUES (DEFAULT, 'Bob', 45);
+
+INSERT INTO owners (owner_id, full_name, age)
+VALUES (DEFAULT, 'Melody Pond', 77);
+
+INSERT INTO owners (owner_id, full_name, age)
+VALUES (DEFAULT, 'Dean Winchester', 14);
+
+INSERT INTO owners (owner_id, full_name, age)
+VALUES (DEFAULT, 'Jodie Whittaker', 38);
+
+    /* Owners data */
+
+INSERT INTO species (specie_id, name)
+VALUES (DEFAULT, 'Pokemon');
+
+INSERT INTO species (specie_id, name)
+VALUES (DEFAULT, 'Digimon');
