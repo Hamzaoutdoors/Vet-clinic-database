@@ -14,7 +14,7 @@ CREATE TABLE owners (
     owner_id SERIAL,
 	full_name VARCHAR(100) NOT NULL,
 	age INT NOT NULL,
-	PRIMARY KEY (id_owner)
+	PRIMARY KEY (owner_id)
 );
 
 CREATE TABLE species (
