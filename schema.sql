@@ -23,3 +23,25 @@ CREATE TABLE species (
 	PRIMARY KEY (specie_id)
 );
 
+CREATE TABLE vets (
+    vet_id SERIAL,
+	name VARCHAR(100) NOT NULL,
+	age INT NOT NULL,
+	date_of_graduation date NOT NULL,
+	PRIMARY KEY (vet_id)
+);
+
+/* Create intersection tables */
+
+CREATE TABLE specializations (
+  specie_id int,
+  vet_id int
+)
+
+CREATE TABLE visits (
+    id_animal int,
+	vet_id int,
+	date_visit date NOT NULL DEFAULT CURRENT_DATE
+)
+
+
