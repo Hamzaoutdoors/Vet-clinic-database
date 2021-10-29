@@ -188,4 +188,3 @@ VALUES ((SELECT id FROM animals WHERE name = 'Plantmon'), (SELECT vet_id FROM ve
  INSERT INTO visits  VALUES ((SELECT id FROM animals WHERE name = 'Boarmon'), (SELECT vet_id FROM vets WHERE name = 'Maisy Smith'), '2020-08-03');
  INSERT INTO visits  VALUES ((SELECT id FROM animals WHERE name = 'Blossom'), (SELECT vet_id FROM vets WHERE name = 'Stephanie Mendez'), '2020-05-24');
  INSERT INTO visits  VALUES ((SELECT id FROM animals WHERE name = 'Blossom'), (SELECT vet_id FROM vets WHERE name = 'William Tatcher'), '2021-01-11');
-
