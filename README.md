@@ -2,7 +2,7 @@
   <a href="https://www.microverse.org/">
     <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors/Vet-clinic-database/blob/development/LICENSE">
+  <a href="https://github.com/Hamzaoutdoors/Vet-clinic-database/blob/dev/MIT.md">
     <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
   </a>
   <a href="https://github.com/Hamzaoutdoors/Vet-clinic-database">
