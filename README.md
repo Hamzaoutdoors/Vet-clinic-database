@@ -52,7 +52,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Hamzaoutdoors/Vet-clinic-database/issues).
 
 ## Show your support
 
@@ -68,7 +68,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/Hamzaoutdoors/Vet-clinic-database/blob/dev/MIT.md) licensed.
 
 </br>
 <p class="love">Made with ❤ by <strong>Hamza</strong></p>
