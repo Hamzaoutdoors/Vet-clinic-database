@@ -13,7 +13,7 @@ CREATE TABLE animals (
 CREATE TABLE owners (
     owner_id SERIAL,
 	full_name VARCHAR(100) NOT NULL,
-	age INT NOT NULL,
+	age INT,
 	PRIMARY KEY (owner_id)
 );
 
@@ -33,15 +33,17 @@ CREATE TABLE vets (
 
 /* Create intersection tables */
 
-CREATE TABLE specializations (
-  specie_id int,
-  vet_id int
-)
+CREATE TABLE specializations(
+  id SERIAL,
+  specie_id INT REFERENCES species(specie_id),
+  vet_id INT REFERENCES vets(vet_id),
+  PRIMARY KEY(id)
+);
 
-CREATE TABLE visits (
-    id_animal int,
-	vet_id int,
-	date_visit date NOT NULL DEFAULT CURRENT_DATE
-)
-
-
+CREATE TABLE visits(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  id_animal INT REFERENCES animals(id),
+  vet_id INT REFERENCES vets(vet_id),
+  date_visit DATE NOT NULL DEFAULT CURRENT_DATE,
+  PRIMARY KEY(id)
+);
