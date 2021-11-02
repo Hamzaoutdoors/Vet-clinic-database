@@ -192,3 +192,7 @@ VALUES (DEFAULT, (SELECT id FROM animals WHERE name = 'Plantmon'), (SELECT vet_i
 /* Perforamnce Practice data */
 
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX idx_visits_vet_id ON visits(vet_id);
+CREATE INDEX ON visits (animal_id);
+CREATE INDEX ON owners ((lower(email)));
