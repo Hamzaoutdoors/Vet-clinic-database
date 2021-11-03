@@ -33,7 +33,7 @@
 </br>
  <p align="center">
    <kbd>
-    <img alt="logo" src="https://user-images.githubusercontent.com/80895497/139541115-259462d8-048b-43f6-8a6c-05a045100b76.png" width=100% />
+    <img alt="logo" src="https://user-images.githubusercontent.com/80895497/140059271-73b93e61-68d3-43a9-b1f7-f8dde5e435bc.png" width=100% />
    </kbd>
 </p>
 
